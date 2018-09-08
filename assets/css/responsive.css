@@ -1,0 +1,40 @@
+
+@media (max-width: 480px) {
+    #header{
+        height: 50vh;
+    }
+    #header .header-content{
+        height: 50vh;
+    }
+    .m-p-25{
+        padding: 25px;
+    }
+    .m-p-15{
+        padding: 15px;
+    }
+    .aboutus_text{
+        width: 100%; 
+    }
+    .dec_text{
+        font-size: 16px;
+    }
+    .timeline-image .img-fluid{
+        padding: 10px;
+    }
+    .main_title{
+        font-size: 28px;
+    }
+    .contact_form{
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px){ 
+    .aboutus_text{
+        width: 100%; 
+    }
+ }
+@media only screen and (min-width: 481px) and (max-width: 575px){ 
+    .timeline-image .img-fluid{
+        padding: 15px;
+    }
+ }

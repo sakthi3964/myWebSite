@@ -1,0 +1,459 @@
+body{
+  background-color: #fff;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+button:focus {outline:0;}
+#header {
+    background: url("../image/sakthi.jpg") repeat scroll center center / cover;
+    height: 100vh;
+    width: 100%;
+  }
+  #header .header-content {
+    height: 100vh;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .header-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .header-content p {
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+  }
+  .navbar-light .navbar-toggler{
+    border: none !important;
+  }
+  .nav_header{
+      /* background-color: black !important; */
+      /* opacity: 0.5; */
+      /* z-index: 101; */
+      /* padding: 10px; */
+  }
+  .nav_main_heading{
+      padding: 10px;
+  }
+
+  .oval_button{
+    padding: 8px;
+    width: 190px;
+    background-color: transparent;
+    color: white;
+    border: white solid 1px;
+    border-radius: 50px;
+    text-align: center;
+  }
+  .oval_button:hover{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+  }
+  /* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  } */
+  .p-75{
+    padding: 75px;
+  }
+  .p-25{
+    padding: 25px;
+  }
+  .m-t-20{
+    margin-top: 20px;
+  }
+  .font-bold{
+    font-weight: bold;
+  }
+  .main_title{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .sub_line{
+    width: 250px;
+    color: red;
+    margin: 0 auto;
+  }
+  .aboutus_text{
+    margin: 0 auto;
+    width: 75%;
+  }
+  .dec_text{
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  .even_block{
+    background-color: #f7f7f7;
+  }
+  .skill-img-div{
+    text-align: center;
+    padding: 10px;
+  }
+  .paddsection {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .paddsections {
+    padding-top: 90px;
+    padding-bottom: 90px !important;
+  }
+
+  #contact {
+    height: auto;
+    width: 100%;
+  }
+  
+  .contact-details {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-details li {
+    padding-bottom: 10px;
+  }
+  
+  #contact input, #contact textarea {
+    width: 100%;
+  }
+  
+  
+  #contact  #sendmessage {
+    color: #18d26e;
+    border: 1px solid #18d26e;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin: 15px;
+  }
+  
+  #contact  #errormessage {
+    color: red;
+    display: none;
+    border: 1px solid red;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin: 15px;
+  }
+  
+  #contact #sendmessage.show, #contact #errormessage.show, #contact .show {
+    display: block;
+  }
+  
+  #contact .validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .form-control {
+    background-color: transparent;
+    border: 1px solid #999;
+    border-radius: 0;
+    color: #999999;
+    font-size: 12px;
+    font-weight: 500;
+    height: 50px;
+    letter-spacing: 0.1em;
+    padding-left: 10px;
+    margin: 0 0 25px 0;
+    line-height: 14px;
+    text-transform: uppercase;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    outline: 0 none;
+  }
+  .btn {
+    background: #333;
+    border: medium none;
+    border-radius: 0;
+    color: #fff;
+    font-size: 12px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    width: 100% !important;
+}
+
+/* footer */
+#footer {
+  background: #f7f7f7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footer .socials-media {
+  width: 100%;
+}
+
+#footer .socials-media ul {
+  display: inline-block;
+  float: none;
+  margin: 0 0 20px 0;
+}
+
+#footer .socials-media ul li {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#footer .socials-media ul li a {
+  font-size: 24px;
+  color: #999;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  background: transparent;
+  text-transform: uppercase;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#footer .socials-media ul li a:hover {
+  color: #b8a07e;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#footer p {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+.credits {
+  font-size: 13px;
+}
+.error
+{
+  border-color: red;
+}
+.contact_img
+{
+  height : 50px;
+  width : 50px;
+}
+.m-t-20{
+  margin-top: 20px;
+}
+.m-l-10{
+  margin-left: 10px;
+}
+
+/* SnackBar Start */
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+/* Snackbar End */
+
+/* SnackBar1 Start */
+
+#snackbar1 {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar1.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+/* Snackbar1 End */
+
+/* SnackBar2 Start */
+
+#snackbar2 {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar2.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+/* Snackbar2 End */
+
+/* SnackBar3 Start */
+
+#snackbar3 {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar3.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+/* Snackbar3 End */
