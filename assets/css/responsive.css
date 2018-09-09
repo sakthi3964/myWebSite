@@ -9,8 +9,8 @@
     .m-p-25{
         padding: 25px;
     }
-    .m-p-15{
-        padding: 15px;
+    .mb-p-0{
+        padding: 0px;
     }
     .aboutus_text{
         width: 100%; 
@@ -26,6 +26,13 @@
     }
     .contact_form{
         margin-top: 10px;
+    }
+    .skill-img-div img{
+        height: 75px;
+    }
+    .paddsection{
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 @media only screen and (min-width: 481px) and (max-width: 767px){ 
